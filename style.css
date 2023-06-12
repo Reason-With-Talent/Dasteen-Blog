@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 70px rgba(30, 40, 52, 0.08);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.vector-one {
+    display: flex;
+    align-items: center;
+}
+
+.vector-one img {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.vector-two {
+    background-color: #6246EA;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    gap: 5px;
+}
+
+.mobile-icon,
+.mobileIcon {
+    display: none;
+}
+
+.dasteen-main-one {
+    display: flex;
+    background-color: #EFF0F3;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.sub-one h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #2B2C34;
+    margin-bottom: 20px;
+}
+
+.sub-one p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9A9494;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.sub-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+.sub-div input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 15px;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+
+}
+
+.sub-div button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #6246EA;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 15px;
+}
+
+.vector-three {
+    margin-top: 20px;
+}
+
+.vector-three img {
+    width: 100%;
+}
+
+.dasteen-main-two {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #EFF0F3;
+}
+
+.sub-two {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.div-line {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.div-line p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2C34;
+
+}
+
+
+.sub-three {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.div-css {
+    background-color: #FFFFFE;
+    width: 130px;
+    height: 160px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.div-css img {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.div-css h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2B2C34;
+    margin-top: 10px;
+}
+
+.dasteen-main-three {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sub-four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-author {
+    background-color: #FFFFFE;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-author img {
+    width: initial;
+    margin-top: 10px;
+
+}
+
+.div-author h5 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.div-author-one {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.div-author-one img {
+    width: 40px;
+
+}
+
+.dasteen-div {
+    text-align: justify;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.dasteen-div h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dasteen-div span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.button-art {
+    background-color: #6246EA;
+    color: #FFFFFE;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-art-one {
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.dasteen-main-four {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #EFF0F3;
+    display: grid;
+    justify-content: center;
+}
+
+
+.div-testing {
+    margin-top: 20px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+
+}
+
+.div-image img {
+    width: 80%;
+    border-radius: 80px;
+    background-color: #FFFFFF;
+}
+
+.div-image {
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.dasteen-main-four h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B2C34;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dasteen-main-four p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.dasteen-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E4E5E9;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-dastin img {
+    margin-top: 30px;
+}
+
+.div-dastin h5 {
+    color: #2B2C34;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.div-end {
+    display: flex;
+    margin-top: 30px;
+}
+
+.div-sub {
+    padding: 5px;
+}
+
+.footer-navbar {
+    margin-top: 30px;
+}
+
+.footer-navbar ul li {
+    list-style-type: none;
+    padding: 5px;
+    color: #2B2C34;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.footer-navbar ul h4 {
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dasteen-anchor {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+.anchor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.anchor span {
+    color: #2B2C34;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.anchor p {
+    color: #2B2C34;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width:990px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .navbar ul {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .mobileIcon {
+        display: none;
+    }
+
+    .navbar ul li {
+        list-style-type: none;
+        color: #1D2939;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        padding-bottom: 15px;
+
+    }
+
+    .mobileIcon:checked~.navbar {
+        display: grid;
+        position: absolute;
+        background-color: #FFFFFF;
+        width: 90%;
+        top: 80px;
+        padding: 12px;
+    }
+
+    .vector-one img {
+        padding: 3px;
+        padding-bottom: 15px;
+    }
+
+    .vector-two {
+        background-color: #6246EA;
+        color: #FFFFFF;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px 5px;
+        border: none;
+        width: 130px;
+        margin-top: 3px;
+    }
+
+    .dasteen-main-one {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sub-one {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub-one h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .sub-one p {
+        font-size: 13px;
+        padding-left: 10px;
+        margin-top: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-div {
+        display: grid;
+        justify-content: center;
+    }
+
+    .sub-div input {
+        width: 85%;
+        border-radius: 10px;
+        padding: 15px 15px;
+        border: none;
+        font-size: 15px;
+    }
+
+    .sub-div button {
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        background-color: #6246EA;
+        color: #fff;
+        padding: 15px 5px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .vector-three img {
+        width: 100%;
+    }
+
+    .dasteen-main-two {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sub-two {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .div-line p {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+
+
+    .sub-three {
+        display: grid;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .div-css {
+        margin: 10px;
+    }
+
+    .dasteen-main-three {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sub-four {
+        display: grid;
+    }
+
+    .testing {
+        display: grid;
+        padding-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .div-author {
+        display: grid;
+    }
+
+    .div-author img {
+        width: initial;
+    }
+
+    .div-author h5 {
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .div-author-one {
+        display: flex;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    .div-author-one img {
+        width: 50px;
+    }
+
+    .dasteen-div {
+        display: grid;
+        text-align: center;
+
+    }
+
+    .dasteen-div h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .dasteen-div span {
+        font-size: 10px;
+    }
+
+    .button-art-one {
+        margin-bottom: 30px;
+    }
+
+    .dasteen-main-four {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dasteen-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer {
+        display: grid;
+        justify-content: center;
+    }
+
+    .dasteen-anchor {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px;
+    }
+
+    .anchor {
+        display: grid;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .anchor span {
+        color: #2B2C34;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .anchor p {
+        color: #2B2C34;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+}
