@@ -274,16 +274,17 @@
 }
 
 .div-image img {
-    width: 80%;
-    border-radius: 80px;
+    width: 10%;
+    border-radius: 100px;
     background-color: #FFFFFF;
+    padding: 20px;
 }
 
 .div-image {
     margin-top: 30px;
-    display: grid;
+    display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 .dasteen-main-four h2 {
@@ -298,8 +299,8 @@
 .dasteen-main-four p {
     font-size: 15px;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     color: #C0C0C0;
 }
